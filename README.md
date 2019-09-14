@@ -8,6 +8,17 @@ This project is meant to be a starter template for building very small lightweig
 
 I use [unpkg.com](https://unpkg.com/) and [babel-standalone](https://babeljs.io/docs/en/babel-standalone) to load all the needed external dependencies so there is no build system! That means you have to load all your new javascript files at the bottom of index.html.
 
+## Local Development
+
+Once you clone this repo, use your favorite http server to serve this directory. I use [serve](https://www.npmjs.com/package/serve). If you want to use [serve](https://www.npmjs.com/package/serve), then do the following
+
+```
+npm install -g serve
+serve .
+```
+
+Then navigate to localhost:5000 and start coding!
+
 
 ## Tech Stack
 
