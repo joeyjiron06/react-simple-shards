@@ -1,6 +1,8 @@
+import Page from '../components/page';
+
 export default ({ history }) => (
-  <div>
+  <Page>
     <h1>Settings Page!</h1>
     <p>I am the settings page</p>
-  </div>
+  </Page>
 );
